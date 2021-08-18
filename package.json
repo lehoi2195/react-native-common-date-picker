@@ -1,0 +1,61 @@
+{
+  "_from": "react-native-common-date-picker@^2.3.4",
+  "_id": "react-native-common-date-picker@2.3.4",
+  "_inBundle": false,
+  "_integrity": "sha512-qRjEDM/+HwHP7GTFoEvG0hYDTBSpR5aXnDR+KKDS8XuuGZucSK9sna02jER5BpZZyJNNe33n7eLTa86I78WZTQ==",
+  "_location": "/react-native-common-date-picker",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "react-native-common-date-picker@^2.3.4",
+    "name": "react-native-common-date-picker",
+    "escapedName": "react-native-common-date-picker",
+    "rawSpec": "^2.3.4",
+    "saveSpec": null,
+    "fetchSpec": "^2.3.4"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-common-date-picker/-/react-native-common-date-picker-2.3.4.tgz",
+  "_shasum": "08dae9016dfd35e9969c8bf8dc76604585286f02",
+  "_spec": "react-native-common-date-picker@^2.3.4",
+  "_where": "/Users/hung.nguyenhuu2/Desktop/smart_sale/ss2.0/app_smartsale",
+  "author": {
+    "name": "chenlong"
+  },
+  "bugs": {
+    "url": "https://github.com/lchenfox/react-native-common-date-picker/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "An awesome and cross-platform React Native date picker and calendar component for iOS and Android",
+  "homepage": "https://github.com/lchenfox/react-native-common-date-picker#readme",
+  "keywords": [
+    "react-native",
+    "date",
+    "date-picker",
+    "calendar",
+    "react-native-date-picker",
+    "react-native-common-date-picker",
+    "date",
+    "components",
+    "datepicker",
+    "calendars",
+    "rn",
+    "date",
+    "picker"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-common-date-picker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lchenfox/react-native-common-date-picker.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.3.4"
+}
