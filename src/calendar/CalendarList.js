@@ -31,6 +31,10 @@ class CalendarList extends Component {
      */
     _selectDate = (date, index) => {
         const { startDate, endDate } = this.state;
+        
+        const { onPressDate } = this.props;
+        onPressDate && typeof onPressDate === 'function' && onPressDate(Constants.toStandardStringWith(date), index);
+        
         if (startDate && endDate) {
             console.log('date', date)
             this.setState({
@@ -48,8 +52,7 @@ class CalendarList extends Component {
         } else {
             this.setState({ startDate: date });
         }
-        const { onPressDate } = this.props;
-        onPressDate && typeof onPressDate === 'function' && onPressDate(Constants.toStandardStringWith(date), index);
+        
     };
 
     _renderItem = ({ item, index }) => {
